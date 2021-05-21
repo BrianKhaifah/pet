@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+}
+.landing{
+    background-image: url("img/landing-removebg-preview\ \(1\).png");
+    height: 800px;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+   
+}
+#heading p{
+    /* color: blanchedalmond; */
+    padding: 30px;
+    font-size: 20px;
+}
+span{
+    font-weight: 900;
+    font-weight: 40px;
+}
+#nav{
+    float: right;
+    padding: 30px;
+    font-size: 20px;
+}
+ul {
+    margin: 20px;
+    display: inline;
+    list-style-type: none;
+   
+}
+li{ 
+    float: left;
+}
+li a{
+   display: block;
+   text-decoration: none; 
+   padding: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 600px;
+    align-items: center;
+   
+    
+  
+}
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #292827;
+    color: white;
+    height: 800px;
+    align-items: center;
+    padding: 25px;
+}
+.footer h3{
+    margin-top: 20px;
+    opacity: 0.1;
+}
+.footer p{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+.body p{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+ /* .image{
+    display: inline;
+    justify-content: space-between; 
+ } */
+
+#image1{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-image: url("img/f1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    
+}
+#image2{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-image: url("img/f2.jpg");
+    background-repeat: no-repeat;
+    margin: 30px;
+   
+} 
+#image3{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-image: url("img/f3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    
+}
+
+    
+
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p a{ color: white;}
+  #foot{
+      /* padding: 30px; */
+      /* margin-top: 20px; */
+  }
+  /* #foot hr{
+    /* padding: 30px; */
+    /* margin-top: 20px;
+  } */ 
